@@ -15,5 +15,16 @@ fi
 if [[ -d "./test" ]]; then
     rm -r ./test
 fi
+
+if [[ -d "./main.cpp" ]]; then
+    rm -f ./main.cpp
+fi
+cp ./templates/main.cpp ./main.cpp
+
+if [[ -d "./main.py" ]]; then
+    rm -f ./main.py
+fi
+cp ./templates/main.py ./main.py
+
 url="${1}"
 oj d "${url}"

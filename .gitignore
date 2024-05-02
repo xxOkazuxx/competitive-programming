@@ -1,2 +1,9 @@
 # online-judge-tools生成ファイル
 test
+
+# 実行用python, cppファイル
+/main.cpp
+/main.py
+
+# ac-library
+/lib/ac-library
